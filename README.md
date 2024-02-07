@@ -2,7 +2,7 @@
 ## TGO en Análisis y Desarrollo de Software
 
 
-[carro](https://img.freepik.com/fotos-premium/faros-coches-modernos-cierran_427248-557.jpg?w=360)
+![carro](https://img.freepik.com/fotos-premium/faros-coches-modernos-cierran_427248-557.jpg?w=360)
 
 | temas | descripcion |
 | ------- | ------------- |
