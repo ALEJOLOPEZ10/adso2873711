@@ -7,6 +7,30 @@ body {background-color: #ffffff;
     font-family: Poppins, sans-serif;
 }
 
+nav.controls {
+    position: fixed;
+    a:is(:link, :visited){
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        height: 40px;
+        transform: scale(0.8);
+        opacity: 0.6;
+        padding: 10px;
+        width: 40px;
+        transition: all 0.4s ease-in; 
+    }
+    a:is(:hover){
+        opacity: 1;
+        transform: scale(1);
+    }
+    svg {
+        width: 40px;
+    }
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -33,6 +57,7 @@ main {
         }
 
     }
+}
     menu {
         display: flex;
         flex-direction: column;
@@ -62,6 +87,7 @@ main {
                 transition: all 0.3s ease-in;
                 height: 34px;
                 width: 34px;
+            }
         }
     }
     a:is(:hover) {
@@ -71,4 +97,31 @@ main {
         a:is(:hover) i{ 
             transform: scale(1.2) rotatex(360deg);
     }
-}
+
+
+    section {
+        border-radius: 10px;
+        background-color: #fff9;
+        color: #0009;
+        padding: 10px;
+        width: 400px;
+        
+        h3 {
+            border-bottom: 2px dotted #0004;
+            color: #0006;
+            font-size: 1.6rem;
+            margin: 0;
+            width: fit-content;
+        }
+        p {
+            font-size: 1.4rem;
+            margin: 10px 0;
+        }
+        xmp {
+            border-radius: 10px;
+            background-color: #0009;
+            color: #fff9;
+            padding: 0 10px 10px 10px;
+
+        }
+    }
