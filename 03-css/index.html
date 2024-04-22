@@ -1,143 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>03-CSS</title>
     <link rel="stylesheet" href="../03-css/css/master.css">
+    <style>
+        div.menus {
+            display: flex;
+            gap: 1rem;
+        }
+
+        @media screen and (max-widht: 580px) {
+            dive.menus {
+                flex-direction: column;
+            }
+        }
+    </style>
+
 
 </head>
+
 <body>
-    
+
 </body>
 <nav class="controls">
     <a href="../index.html">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M320 33.8V160H48.5C100.2 82.8 188.1 32 288 32c10.8 0 21.5 .6 32 1.8zM352 160V39.1C424.9 55.7 487.2 99.8 527.5 160H352zM29.9 192H96V320H0c0-46 10.8-89.4 29.9-128zM192 320H128V192H448V320H384v32H576v80c0 26.5-21.5 48-48 48H352V352c0-35.3-28.7-64-64-64s-64 28.7-64 64V480H48c-26.5 0-48-21.5-48-48V352H192V320zm288 0V192h66.1c19.2 38.6 29.9 82 29.9 128H480z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#ffffff"
+                d="M320 33.8V160H48.5C100.2 82.8 188.1 32 288 32c10.8 0 21.5 .6 32 1.8zM352 160V39.1C424.9 55.7 487.2 99.8 527.5 160H352zM29.9 192H96V320H0c0-46 10.8-89.4 29.9-128zM192 320H128V192H448V320H384v32H576v80c0 26.5-21.5 48-48 48H352V352c0-35.3-28.7-64-64-64s-64 28.7-64 64V480H48c-26.5 0-48-21.5-48-48V352H192V320zm288 0V192h66.1c19.2 38.6 29.9 82 29.9 128H480z" />
+        </svg>
     </a>
-        
+
 
 </nav>
 <main>
     <header>
         <h1>CSS</h1>
-        <h2> 
+        <h2>
             es un lenguaje que usamos para dar estilo a una pagina web
         </h2>
     </header>
-    <menu>
-    </a>
-    <a href="00-template.html">
-        <i>00</i>
-        <span>template</span>
-    </a>
-        <a href="01-documen style.html">
-            <i>01</i>
-            <span>document style</span>
-        </a>
+    <div class="menus">
+        
+        <menu>
+            <h3>reference 2.1</h3>
+            </a>
+            <a href="00-template.html">
+                <i>00</i>
+                <span>template</span>
+            </a>
+            <a href="01-documen style.html">
+                <i>01</i>
+                <span>document style</span>
+            </a>
             <a href="02-css file.html">
                 <i>02</i>
                 <span>css style</span>
-         </a>
+            </a>
             <a href="03-attribute.html">
                 <i>03</i>
                 <span>attribute style</span>
-        </a>
-    
-    <a href="04-basic-selectors.html">
-        <i>04</i>
-        <span>basic-selectors</span>
-</a>
+            </a>
 
-<a href="05-advanced-selectors.html">
-    <i>05</i>
-    <span>advance-selectors</span>
-</a>
+            <a href="04-basic-selectors.html">
+                <i>04</i>
+                <span>basic-selectors</span>
+            </a>
 
-<a href="06-specifity-selectors.html">
-    <i>06</i>
-    <span>specifity-selectors</span>
-</a>
+            <a href="05-advanced-selectors.html">
+                <i>05</i>
+                <span>advance-selectors</span>
+            </a>
 
-<a href="07-inheritance.html">
-    <i>07</i>
-    <span>inheritance</span>
-</a>      
+            <a href="06-specifity-selectors.html">
+                <i>06</i>
+                <span>specifity-selectors</span>
+            </a>
 
-<a href="08-relative-units.html">
-    <i>08</i>
-    <span>relative-units</span>
-</a>    
+            <a href="07-inheritance.html">
+                <i>07</i>
+                <span>inheritance</span>
+            </a>
 
-<a href="09-absolute-units.html">
-    <i>09</i>
-    <span>absolute-units</span>
-</a>  
+            <a href="08-relative-units.html">
+                <i>08</i>
+                <span>relative-units</span>
+            </a>
 
-<a href="10-percentage-units.html">
-    <i>10</i>
-    <span>percentage-units</span>
-</a>
-<a href="11-colors.html">
-    <i>11</i>
-    <span>colors</span>
-</a>
-<a href="12-colors-alpha.html">
-    <i>12</i>
-    <span>colors alpha</span>
-</a>
-<a href="13-box-model.html">
-    <i>13</i>
-    <span>box-model</span>
-</a>
-<a href="14-background.html">
-    <i>14</i>
-    <span>background</span>
-</a>
-<a href="15-position.html">
-    <i>15</i>
-    <span>position</span>
-</a>
-<a href="16-float.html">
-    <i>16</i>
-    <span>float</span>
-</a>
-<a href="17-visualization.html">
-    <i>17</i>
-    <span>visualization</span>
-</a>
-<a href="18-typography.html">
-    <i>18</i>
-    <span>typography</span>
-</a>
-<a href="19-text.html">
-    <i>19</i>
-    <span>text</span>
-</a>
-<a href="20-pseudoclasses.html">
-    <i>20</i>
-    <span>pseudoclasses</span>
-</a>
-<a href="21-lists.html">
-    <i>21</i>
-    <span>lists</span>
-</a>
-<a href="22-cursors.html">
-    <i>22</i>
-    <span>cursors</span>
-</a>
-<a href="23-sprite.html">
-    <i>23</i>
-    <span>sprite</span>
-</a>
+            <a href="09-absolute-units.html">
+                <i>09</i>
+                <span>absolute-units</span>
+            </a>
+
+            <a href="10-percentage-units.html">
+                <i>10</i>
+                <span>percentage-units</span>
+            </a>
+            <a href="11-colors.html">
+                <i>11</i>
+                <span>colors</span>
+            </a>
+            <a href="12-colors-alpha.html">
+                <i>12</i>
+                <span>colors alpha</span>
+            </a>
+            <a href="13-box-model.html">
+                <i>13</i>
+                <span>box-model</span>
+            </a>
+            <a href="14-background.html">
+                <i>14</i>
+                <span>background</span>
+            </a>
+            <a href="15-position.html">
+                <i>15</i>
+                <span>position</span>
+            </a>
+            <a href="16-float.html">
+                <i>16</i>
+                <span>float</span>
+            </a>
+            <a href="17-visualization.html">
+                <i>17</i>
+                <span>visualization</span>
+            </a>
+            <a href="18-typography.html">
+                <i>18</i>
+                <span>typography</span>
+            </a>
+            <a href="19-text.html">
+                <i>19</i>
+                <span>text</span>
+            </a>
+            <a href="20-pseudoclasses.html">
+                <i>20</i>
+                <span>pseudoclasses</span>
+            </a>
+            <a href="21-lists.html">
+                <i>21</i>
+                <span>lists</span>
+            </a>
+            <a href="22-cursors.html">
+                <i>22</i>
+                <span>cursors</span>
+            </a>
+            <a href="23-sprite.html">
+                <i>23</i>
+                <span>sprite</span>
+            </a>
         </menu>
-    </main>
-    
-    </html>
-        
+        <menu>
+            <h3>Reference 3</h3>
+            <a href="25-new-selectors.html">
+                <i>25</i>
+                <span>New Selectors</span>
+            </a>
+            <a href="26-border-radius.html">
+                <i>26</i>
+                <span>Border Radius</span>
+            </a>
+            <a href="27-box-shadow.html">
+                <i>27</i>
+                <span>Box Shadow</span>
+            </a>
+            <a href="28-challenge-shadow.html">
+                <i>28</i>
+                <span>Challenge Box Shadow</span>
+            </a>
+            <a href="29-new-backgrounds.html">
+                <i>29</i>
+                <span>New Backgrounds Props </span>
+            </a>
+            <a href="30-text-shadow.html">
+                <i>30</i>
+                <span>Text Shadow</span>
+            </a>
+            <a href="31-filters.html">
+                <i>31</i>
+                <span>Filters</span>
+            </a>
+            <a href="32-clip-path.html">
+                <i>32</i>
+                <span>Clip Path</span>
+            </a>
+            <a href="33-web-fonts.html">
+                <i>33</i>
+                <span>Web Fonts</span>
+            </a>
+            <a href="34-variables.html">
+                <i>34</i>
+                <span>Variables</span>
+            </a>
+            <a href="35-transformations.html">
+                <i>35</i>
+                <span>Transformations</span>
+            </a>
+            <a href="36-transitions.html">
+                <i>36</i>
+                <span>Transitions</span>
+            </a>
+            <a href="37-animations.html">
+                <i>37</i>
+                <span>Animations</span>
+            </a>
+            <a href="38-media-queries.html">
+                <i>38</i>
+                <span>Media Queries</span>
+            </a>
+            <a href="39-challenge-responsive.html">
+                <i>39</i>
+                <span>Challenge Responsive</span>
+            </a>
+            <a href="40-steps.html">
+                <i>40</i>
+                <span>Steps</span>
+            </a>
+            <a href="41-functions.html">
+                <i>41</i>
+                <span>Functions</span>
+            </a>
+            <a href="42-parallax.html">
+                <i>42</i>
+                <span>Parallax</span>
+            </a>
+            <a href="43-flexbox.html">
+                <i>43</i>
+                <span>Flexbox</span>
+            </a>
+            <a href="44-grid.html">
+                <i>44</i>
+                <span>Grid</span>
+            </a>
 
-                
+        </menu>
+</main>
+</div>
 
-                
-        
-        
-        
+</html>
