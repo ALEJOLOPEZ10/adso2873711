@@ -5,6 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steps</title>
     <link rel="stylesheet" href="css/master.css">
+    <style>
+        div.steps {
+            position: relative;
+            margin: 0 auto;
+            height: 280px;
+            width: calc(1024px / 4);
+            animation: animSteps 0.6s steps(4) infinite;
+        }
+        div.steps01 {
+            background: url(images/steps-01.png) no-repeat;
+        }
+        div.steps02 {
+            background: url(images/steps-02.png) no-repeat;
+        }
+        div.steps03 {
+            background: url(images/steps-03.png) no-repeat;
+        }
+        @keyframes animSteps {
+            100% {background-position: -1024px; }
+            
+        }
+    </style>
 </head>
 <body>
     <nav class="controls">
@@ -15,9 +37,15 @@
     <main>
         <header>
             <h1>Steps</h1>
-            <h2>lorem ipsum dolor sit about</h2>
+            <h2>permite animar por pasos o segmentos</h2>
         </header>
         <section>
+            <h3>example 01:</h3>
+            <div class="steps steps01"></div>
+            <h3>example 02:</h3>
+            <div class="steps steps02"></div>
+            <h3>example 03:</h3>
+            <div class="steps steps03"></div>
         </section>
     </main>
 </body>
